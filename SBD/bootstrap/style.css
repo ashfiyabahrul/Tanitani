@@ -1,0 +1,50 @@
+.foto-atas{
+    height: 629px;
+    background-image: url('../asset/sawah.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sampul{
+    margin-top: 150px;
+}
+.konten-bawah{
+    height: 400px;
+    width: 100%;
+}
+.row{
+    margin: 10px 0 30px;
+}
+.ikon{
+    width: 100px;
+    height: 100px;
+}
+.kaki {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+  }
+  .dropdown-toggle::after { 
+    content: none; 
+}
+.dropdown-menu{
+    width: 300px;
+}
+.gambar-tanaman{
+    height: 200px;
+    width: 100%;
+}
+.footer{
+    background-color: #007bff;
+    color: white;
+    height: 100px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.foto-profile{
+    width: 50px;
+    height: 50px;
+    float: left;
+}

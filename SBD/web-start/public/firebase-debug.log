@@ -1,0 +1,48 @@
+[debug] [2020-05-26T14:26:45.228Z] ----------------------------------------------------------------------
+[debug] [2020-05-26T14:26:45.231Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sugih\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only hosting
+[debug] [2020-05-26T14:26:45.231Z] CLI Version:   8.2.0
+[debug] [2020-05-26T14:26:45.231Z] Platform:      win32
+[debug] [2020-05-26T14:26:45.231Z] Node Version:  v12.16.3
+[debug] [2020-05-26T14:26:45.233Z] Time:          Tue May 26 2020 21:26:45 GMT+0700 (Western Indonesia Time)
+[debug] [2020-05-26T14:26:45.233Z] ----------------------------------------------------------------------
+[debug] [2020-05-26T14:26:45.233Z] 
+[debug] [2020-05-26T14:26:45.243Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-26T14:26:45.244Z] > authorizing via signed-in user
+[debug] [2020-05-26T14:26:45.244Z] [iam] checking project tanitani-1c8dc for permissions ["firebase.projects.get"]
+[debug] [2020-05-26T14:26:45.248Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/tanitani-1c8dc:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-05-26T14:26:46.461Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 26 May 2020 14:26:50 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1007","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-26T14:26:46.465Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/tanitani-1c8dc  
+ 
+[debug] [2020-05-26T14:26:47.010Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 26 May 2020 14:26:50 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-26T14:26:47.015Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/tanitani-1c8dc/webApps/-/config  
+ 
+[debug] [2020-05-26T14:26:48.136Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 26 May 2020 14:26:52 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: ./public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2020-05-30T03:40:05.937Z] ----------------------------------------------------------------------
+[debug] [2020-05-30T03:40:05.939Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sugih\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only hosting
+[debug] [2020-05-30T03:40:05.939Z] CLI Version:   8.2.0
+[debug] [2020-05-30T03:40:05.939Z] Platform:      win32
+[debug] [2020-05-30T03:40:05.939Z] Node Version:  v12.16.3
+[debug] [2020-05-30T03:40:05.940Z] Time:          Sat May 30 2020 10:40:05 GMT+0700 (Western Indonesia Time)
+[debug] [2020-05-30T03:40:05.940Z] ----------------------------------------------------------------------
+[debug] [2020-05-30T03:40:05.940Z] 
+[debug] [2020-05-30T03:40:05.951Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-30T03:40:05.951Z] > authorizing via signed-in user
+[debug] [2020-05-30T03:40:05.952Z] [iam] checking project tanitani-1c8dc for permissions ["firebase.projects.get"]
+[debug] [2020-05-30T03:40:05.953Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-05-30T03:40:05.953Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-05-30T03:40:06.182Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 30 May 2020 03:40:07 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-30T03:40:06.199Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/tanitani-1c8dc:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-05-30T03:40:07.574Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 30 May 2020 03:40:08 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1031","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-30T03:40:07.574Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/tanitani-1c8dc  
+ 
+[debug] [2020-05-30T03:40:08.120Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 30 May 2020 03:40:09 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-30T03:40:08.122Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/tanitani-1c8dc/webApps/-/config  
+ 
+[debug] [2020-05-30T03:40:09.323Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 30 May 2020 03:40:10 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: ./public
+[info] +  hosting: Local server: http://localhost:5000
